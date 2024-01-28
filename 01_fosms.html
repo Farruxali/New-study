@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My web site</title>
+  </head>
+
+  <body>
+    <form action="/server.php" method="GET">
+      <label for="username">username</label>
+      <input type="text" name="username" id="username"><br><br>
+      <label for="password">password</label>
+      <input type="password" name="password" id="password"><br><br>
+      <label for="email">email</label>
+      <input type="email" name="email" id="email"><br><br>
+      <label for="sana">Tugʻilgan sana</label>
+      <input type="data" name="data" id="sana"><br><br>
+      <label for="student">student</label>
+      <input type="checkbox" name="student" id="student"><br><br>
+      <label for="Erkak">Erkak</label>
+      <input type="radio" name="gender" value="male"><br><br>
+      <label for="Ayol">Ayol</label>
+      <input type="radio" name="gender" value="female"><br><br>
+      <label for="passport">passport</label>
+      <input type="file" name="passport" id="passport"><br><br>
+      <hr>
+      <label for="tajriba">tajribangiz</label>
+      <select name="tajriba" id="tajriba">
+        <option value="0">tajribam yoʻq</option>
+        <option value="1">1 yildan kam </option>
+        <option value="2">1yildan koʻp</option>
+      </select><br><br>
+      <label for="about">about</label>
+      <textarea name="about" id="about" cols="10" rows="2"></textarea><br><br>
+      <button type="submit">Login</button>
+      
+    </form>
+  </body>
+
+</html>
